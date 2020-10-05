@@ -7,24 +7,27 @@ body {
     
 }
 
-header {
+body > header {
     grid-area: head;
     background-color: blue;
 }
 
-aside {
+body > aside {
     background-color: gray;
 }
 
 .menu {
     grid-area: menu;
+
 }
 
 .messanger {
     grid-area: msg;
+    background-color: hotpink;
 }
 
-main {
+body > main {
     grid-area: feed;
-    
+    background-color: yellow;
+    padding: 40px;
 }
